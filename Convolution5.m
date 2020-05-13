@@ -1,6 +1,6 @@
 function y=Convolution5(x,h)
-x=input(' ÊäÈëĞÅºÅ£¬ x=');
-h=input(' ÊäÈëĞÅºÅ£¬ h=');
+x=input(' ï¿½ï¿½ï¿½ï¿½ï¿½ÅºÅ£ï¿½ x=');
+h=input(' ï¿½ï¿½ï¿½ï¿½ï¿½ÅºÅ£ï¿½ h=');
 lx=length(x);
 lh=length(h);
 lmax=max(lx,lh);
@@ -53,7 +53,6 @@ hold on;
 ylabel('y[k]=sum(s)') 
 %subplot(5,1,6);stem(t1,hf)
 if k==round(0.8*lt)
-%disp(' ÔİÍ££¬°´ÈÎÒâ¼ü¼ÌĞø ');
 pause 
 else pause(1)
 end 
